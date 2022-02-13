@@ -1,0 +1,171 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: #3a9bd3;
+}
+
+p:hover{
+  color: black;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Headings */
+
+.big-heading {
+font-family: 'Montserrat-Black', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+text-shadow: 2px 2px 5px black;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: 1px 1px 1px #3a9bd3;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+
+/* Download Buttons */
+
+.download-botton {
+  margin: 5% 3% 5% 0;
+}
+
+.fab {
+  padding-right: 16px;
+}
+
+/* Title Section */
+
+#title {
+  background-image: -webkit-linear-gradient(top, #3a9bd3, #6588b152);
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 80%;
+  position: static;
+  right: 50%;
+  border-radius: 50%;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #3a9bd3;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: black
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  background-image: -webkit-linear-gradient(top, #3a9bd3, #6588b152);
+  color: #ffffff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 55%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ffffff;
+  padding-bottom: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* CTA Section */
+
+#cta {
+  background-image:
+  color: #ffffff;
+}
+
+/* Footer Section */
+
+#footer {
+  background-image: -webkit-linear-gradient(top, #3a9bd3, #6588b152);
+}
+
+em {
+  color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+
+#title {
+  text-align: center;
+}
